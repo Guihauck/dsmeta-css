@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DSMeta</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body> <!--Corpo do documento HTML.-->
+    <header> <!-- Cabeçalho da página com a tag semnântica (contém um significado) para construção de bloco.-->
+        <div class="dsmeta-logo-container">
+            <!-- Alinhamento ao centro da página. Delimitando um bloco, div = divisão do documento. Class: Atributo do CSS.-->
+            <img src="logo.svg" alt="Infelizmente a foto não existe!">
+            <h1>DSMeta</h1>
+            <p>Desenvolvido por
+                <a href="https://www.instagram.com/guihauck1998/" target="_blank">@Guilherme Hauck</a>
+            </p>
+        </div>
+    </header>
+
+    <!-------------------------------------------- PARTE DEBAIXO RELATÓRIO ------------------------------------------->
+
+    <main>
+        <!-- A tag semântica main sendo igual a div, fazendo a divisória, tendo um significado, sendo main (principal) a sessão principal da página. -->
+        <section id="Sales"> <!-- Tag sessão delimitando uma área da página-->
+            <div class="dsmeta-container"> <!-- Tag divisória para controlar a largura máxima.-->
+                <div class="dsmeta-card"> <!-- Tag divisória com uma classe para o controle do card retângulo.-->
+                    <h2 class="ds-meta-sales-title">Vendas</h2>
+                    <div>
+                        <div class="dsmeta-form-control-container">
+                            <input class="dsmeta-form-control" type="text"> <!-- Caixa de inserção de dados input.-->
+                        </div>
+                        <div class="dsmeta-form-control-container">
+                            <input class="dsmeta-form-control" type="text"> <!-- Caixa de inserção de dados input.-->
+                        </div>
+                    </div>
+
+                    <div> <!-- Divisória da tabela.-->
+                        <table class="dsmeta-sales-table">
+                            <thead> <!-- Linha dos campos .-->
+                                <tr> <!-- Linha de tabela .-->
+                                    <th class="show992">ID</th>
+                                    <th class="show576">Data</th>
+                                    <th>Vendedor</th> <!-- Cabeçalho da tabela -->
+                                    <th class="show992">Visitas</th>
+                                    <th class="show992">Vendas</th>
+                                    <th>Total</th>
+                                    <th>Notificar</th>
+                                </tr>
+                            </thead>
+                            <tbody> <!-- Corpo da tabela .-->
+                                <tr>
+                                    <td class="show992">#341</td>
+                                    <td class="show576">08/07/2022</td>
+                                    <td>Anakin</td> <!--TH elemento de cabeçalho-->
+                                    <td class="show992">15</td>
+                                    <td class="show992">11</td>
+                                    <td>R$ 55300.00</td>
+                                    <td>
+                                        <div class="dsmeta-red-btn-container">
+                                            <div class="dsmeta-red-btn">
+                                                <img src="Notification-Icon.svg" alt="Notification" />
+                                            </div>
+                                        </div>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <td class="show992">#341</td>
+                                    <td class="show576">08/07/2022</td>
+                                    <td>Anakin</td> <!--TH elemento de cabeçalho-->
+                                    <td class="show992">15</td>
+                                    <td class="show992">11</td>
+                                    <td>R$ 55300.00</td>
+                                    <td>
+                                        <div class="dsmeta-red-btn-container">
+                                            <div class="dsmeta-red-btn">
+                                                <img src="Notification-Icon.svg" alt="Notification" />
+                                            </div>
+                                        </div>
+                                </tr>
+                                <tr>
+                                    <td class="show992">#341</td>
+                                    <td class="show576">08/07/2022</td>
+                                    <td>Anakin</td> <!--TH elemento de cabeçalho-->
+                                    <td class="show992">15</td>
+                                    <td class="show992">11</td>
+                                    <td>R$ 55300.00</td>
+                                    <td>
+                                        <div class="dsmeta-red-btn-container">
+                                            <div class="dsmeta-red-btn">
+                                                <img src="Notification-Icon.svg" alt="Notification" />
+                                            </div>
+                                        </div>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
+
+<!------------------- OBSERVAÇÕES E ANOTAÇÕES ------------------------
+    ID: Único, somente um elemento no HTML pode ter o ID.
+    CLASS: Poderá repetir, tendo mais de um elemento com a mesma classe.
+
+-->
